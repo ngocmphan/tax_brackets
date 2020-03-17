@@ -24,6 +24,9 @@ y_pos_YK = list(tax_filers.iloc[11, 1:6])
 y_pos_NN = list(tax_filers.iloc[12, 1:6])
 y_pos_non_res = list(tax_filers.iloc[13, 1:6])
 
+
+
+
 # Graph the tax payers number per provinces and total number by tax brackets
 plt.plot(columns, y_pos, color='yellow', linewidth=2, label='All Brackets')
 plt.title('General personal tax population by tax brackets')
